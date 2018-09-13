@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
     s.name             = 'LinkedIn.swift'
-    s.version          = '1.0.2'
+    s.version          = '1.0.0'
     s.summary          = 'LinkedIn SDK wrapper for swift.'
     s.homepage         = 'https://github.com/BiAtoms/LinkedIn.swift'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
-    s.author           = { 'Orkhan Alikhanov' => 'orkhan.alikhanov@gmail.com' }
-    s.source           = { :git => 'https://github.com/BiAtoms/LinkedIn.swift.git', :tag => s.version.to_s }
+    s.author           = { 'Abhishek Macherla' => 'abhishek.macherla@photoninfotech.net' }
+    s.source           = { :git => 'https://github.com/macherlaDabhishek/LinkedInSwift.git', :tag => s.version.to_s }
     s.module_name      = 'LinkedInSwift'
 
     s.ios.deployment_target = '9.0'
