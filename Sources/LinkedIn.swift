@@ -13,8 +13,8 @@ public typealias LinkedInAPIResponseCallbackClosure = (LISDKAPIResponse?) -> Voi
 public typealias LinkedInAPIErrorCallbackClosure = (LISDKAPIError?) -> Void
 open class LinkedIn {
     
-    open static func shouldHandleLISDKCallbackHandler(url: URL){
-        LISDKCallbackHandler.shouldHandle(url)
+    open static func shouldHandleLISDKCallbackHandler(url: URL) -> Bool{
+        return LISDKCallbackHandler.shouldHandle(url)
     }
     
     open static func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool{
