@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
-    s.name             = 'LinkedIn.swift'
+    s.name             = 'LinkedInSwift'
     s.version          = '1.0.0'
     s.summary          = 'LinkedIn SDK wrapper for swift.'
-    s.homepage         = 'https://github.com/BiAtoms/LinkedIn.swift'
+    s.homepage         = 'https://github.com/macherlaDabhishek/LinkedInSwift'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'Abhishek Macherla' => 'abhishek.macherla@photoninfotech.net' }
     s.source           = { :git => 'https://github.com/macherlaDabhishek/LinkedInSwift.git', :tag => s.version.to_s }
